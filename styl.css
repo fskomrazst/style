@@ -1,0 +1,97 @@
+body {
+    background-image: url('https://i.pinimg.com/originals/9f/e2/26/9fe226c2d057df591bf298551ffd3410.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+body, h1, h2, h3, h4, h5, h6, p, a, span, div, li, ul, ol, td, th {
+    color: white; /* Biały kolor tekstu */
+    font-weight: bold; /* Pogrubienie tekstu */
+    font-style: italic; /* Pochylenie tekstu */
+}
+table 
+{
+    opacity: 0.5; /* Ustawienie przezroczystości na 50% */
+}
+table th, table td {
+    background-color: rgba(0, 0, 0, 0.1); /* Bardzo lekki kolor tła */
+    color: rgba(255, 255, 255, 0.5); /* Bardzo lekki kolor tekstu */
+    border: 1px solid rgba(255, 255, 255, 0.1); /* Bardzo lekka ramka */
+}
+.menu-item {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 5px;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Tła dla poszczególnych elementów menu */
+.menu-item:nth-child(1) {
+    background-image: url('https://i.pinimg.com/originals/cb/35/5c/cb355c5d8a9aacb46a2fd78317881643.gif');
+}
+
+.menu-item:nth-child(2) {
+    background-image: url('https://i.pinimg.com/originals/09/33/df/0933dff960df6245c00323ecd9e01afa.gif');
+}
+
+.menu-item:nth-child(3) {
+    background-image: url('https://i.pinimg.com/originals/51/a3/6c/51a36c6c867015f74144ab72943c5151.gif');
+}
+
+.menu-item:nth-child(4) {
+    background-image: url('https://i.pinimg.com/236x/cf/9b/ec/cf9bec85c8e3f14b7e2e410c28b789fe.jpg');
+}
+
+.menu-item:nth-child(5) {
+    background-image: url('https://i.pinimg.com/564x/da/a2/c1/daa2c12753fa1d467ea93792b1c982e9.jpg');
+}
+
+.menu-item:nth-child(6) {
+    background-image: url('https://i.pinimg.com/originals/70/83/60/708360c9aca73c557f5dbe21fb84af88.gif');
+}
+
+.menu-item:nth-child(7) {
+    background-image: url('https://i.pinimg.com/originals/08/77/99/0877995afb8fc5520745ecd85f0e14a8.gif');
+}
+
+/* Ustawienie tła */
+.menu-item {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Dodatkowe style */
+.menu-item:hover {
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+/* Ustawienie cieplejszego tła strony */
+body {
+    background-color: #333; /* ciemne tło strony */
+}
+
+/* Ustawienie cieplejszego tła nawigacji/stopki */
+.navbar, .footer {
+    background-color: #FF5733; /* cieplejszy kolor tła nawigacji/stopki - odcień pomarańczy */
+}
+
+/* Ustawienie cieplejszego koloru czcionki nawigacji/stopki */
+.navbar a, .footer a {
+    color: #FFD700; /* cieplejszy kolor czcionki - złoty */
+}
+
+/* Ustawienie cieplejszego koloru na hover nawigacji/stopki */
+.navbar a:hover, .footer a:hover {
+    background-color: #FF8C00; /* cieplejszy kolor na hover - ciemny pomarańczowy */
+}
+
+/* Ustawienie cieplejszego tła dla loadera */
+.loader {
+    background-color: #FF4500; /* cieplejszy kolor loadera - czerwień */
+}
